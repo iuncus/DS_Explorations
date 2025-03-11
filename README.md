@@ -1,20 +1,24 @@
+# Data Science Explorations
+
+## Overview
+This repository contains various Jupyter notebooks exploring different aspects of data science, including API interactions, summary statistics, regression analysis, and unsupervised learning techniques.
+
+## Notebooks
+
 ### API Exploration
+- **API-test.ipynb**: Tests the Met API, though the API itself appears to be bugged.
+- **ChicagoAPI.ipynb**: Interacts with the Art Institute of Chicago API.
+- **NASAapi.ipynb**: Demonstrates a functional use of the NASA APoD API to display images.
 
-- API-test.ipynb is for testing the Met API, the API itself seems to be bugged?
+### Statistical Analysis
+- **StatsandPlots.ipynb**: Computes summary statistics and generates plots for data visualization.
 
-- ChicagoAPI.ipynb is for testing the Art Institute of Chicago API
+### Regression Analysis
+- **RegressionandPrediction.ipynb**: Implements regression techniques for predictive modeling.
 
-- NASAapi.ipynb is the very short but functional use of the NASA APoD API to display the image.
+### Unsupervised Learning
+- **UnsupervisedLearning.ipynb**: Explores clustering techniques, including UMAP and other unsupervised learning methods.
 
-### Summary Statistics
-
-- StatsandPlots.ipynb
-
-### Regression
-
-- RegressionandPrediction.ipynb
-
-### UMAP and clustering
-
-- UnsupervisedLearning.ipynb
+## Usage
+Ensure all dependencies are installed, run cells in notebooks.
 
